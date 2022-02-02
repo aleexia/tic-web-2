@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Alexia" />
+    <meta name="keywords" content="HTML, CSS, Astro" />
+    <title>Ideopodcasts - Blog</title>
+    <style>
+        *, body {  
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        #header {
+          background-color: #eee;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 250px 1fr;
+        }
+        #menu ul {
+        display: flex;
+        justify-content: end;
+        gap: 1em;
+       }
+       #menu ul li {
+        list-style: none;
+        padding: 0.5em;
+       }    
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <a href="/home">
+        <img src="/logo.png" />
+        </a>
+      </div>
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="/about">Acerca de</a>
+          </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
+            <a href="/contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div> <!-- header -->
+    <div class="main">
+      <h1>Acerca de</h1>
+      <p>Poner algo</p>
+    </div>
+    <!-- ======== Pie de página ========= -->
+    <div class="foot">
+      <p>Catálogo de programas de radio de IDEO</p>
+      <p>Autor de la página: Alexia</p>
+      
+      <div class="links">
+        <ul>
+          <li>
+            <a href="/about">Acerca de</a>
+          </li>
+          <li>
+            <a href="/blog">Blog</a>
+          </li>
+          <li>
+            <a href="/contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
