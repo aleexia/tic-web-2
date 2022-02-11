@@ -29,6 +29,9 @@ body {
   justify-content: end;
   gap: 1em;
 }
+#menu a {
+  color: #2dc4f1;
+}
 #menu ul li {
   list-style: none;
   padding: 0.5em;
