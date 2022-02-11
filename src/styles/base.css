@@ -23,6 +23,8 @@ body {
   text-align: center;
   color: white;
   background: black;
+  margin-top: 1em;
+  padding: 1em;
 }
 .foot .links ul {
   display: flex;
