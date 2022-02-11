@@ -1,6 +1,7 @@
 :root {
-  --font1: ;
-  --font2: ;
+  --font1: 'Courier New', monospace;
+  --font2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  --font3: ;
 }
 *,
 body {
@@ -29,19 +30,23 @@ body {
 }
 h1 {
   margin-left: 10px;
+  font-size: 40px;
+  font-family: var(--font1);
 }
 p {
   margin: 5px 0px 25px 10px;
+  font-family: var(--font1);
 }
 .title {
   margin: 1px 20px 0px 15px;
-  font-size: 40px;
-  font: ;
+  font-size: 30px;
+  font-family: var(--font2);
 }
 .content {
   text-align: justify;
   margin: 0px 20px 0px 15px;
   font-size: 18px;
+  font-family: var(--font2);
 }
 .foot a {
   color: rgb(0, 131, 175);
