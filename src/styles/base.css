@@ -85,7 +85,7 @@ p {
 }
 .podcasts-preview .cover-picture {
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: gray;
 }
 .podcasts-preview .description {
