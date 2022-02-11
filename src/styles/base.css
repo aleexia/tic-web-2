@@ -1,12 +1,20 @@
+:root {
+  --font1: ;
+  --font2: ;
+}
 *,
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #c9e9f3;
+}
 #header {
-  background-color: #eee;
+  background-color: #3da0be;
   width: 100%;
+  height: 7em;
   display: grid;
   grid-template-columns: 250px 1fr;
 }
@@ -19,12 +27,31 @@ body {
   list-style: none;
   padding: 0.5em;
 }
+h1 {
+  margin-left: 10px;
+}
+p {
+  margin: 5px 0px 25px 10px;
+}
+.title {
+  margin: 1px 20px 0px 15px;
+  font-size: 40px;
+  font: ;
+}
+.content {
+  text-align: justify;
+  margin: 0px 20px 0px 15px;
+  font-size: 18px;
+}
+.foot a {
+  color: rgb(0, 131, 175);
+}
 .foot {
   text-align: center;
   color: white;
-  background: black;
+  background: rgb(152, 223, 235);
   margin-top: 1em;
-  padding: 1em;
+  padding: 0.2em;
 }
 .foot .links ul {
   display: flex;
@@ -33,36 +60,6 @@ body {
 }
 .links ul li {
   list-style: none;
-}
-.content {
-  text-align: justify;
-}
-.foot a {
-  color: LightBlue;
-}
-p {
-  margin: 5px 1px 25px 1px;
-}
-.content {
-  margin: 0px 20px 0px 15px;
-}
-.title {
-  margin: 1px 20px 0px 15px;
-}
-.content {
-  text-indent: 30px;
-}
-.title {
-  background-color: Gainsboro;
-}
-.content {
-  background-color: Gainsboro;
-}
-.title {
-  font-size: 40px;
-}
-.content {
-  font-size: 18px;
 }
 
 .list-of-podcasts {
