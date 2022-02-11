@@ -24,6 +24,14 @@ body {
   color: white;
   background: black;
 }
+.foot .links ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.links ul li {
+  list-style: none;
+}
 .content {
   text-align: justify;
 }
@@ -56,10 +64,12 @@ p {
 }
 
 .list-of-podcasts {
+  margin-left: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
 }
+
 .podcasts-preview {
   border: 1px solid #888;
   padding: 0.5em;
