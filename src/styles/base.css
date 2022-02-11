@@ -75,7 +75,7 @@ p {
   margin-left: 10px;
   margin-right: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   gap: 1em;
 }
 .podcasts-preview {
