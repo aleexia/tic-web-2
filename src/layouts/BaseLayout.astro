@@ -1,0 +1,31 @@
+---
+  import MenuLayout from './MenuLayout.astro'
+  import FootLayout from './FootLayout.astro'
+// src/layouts/BaseLayout.astro
+const {title} = Astro.props;
+---
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Alexia" />
+    <meta name="keywords" content="HTML, CSS, Astro" />
+    <title>Ideopodcasts - {title}</title>
+    <link rel="stylesheet" type="text/css" href={Astro.resolve
+    ('../styles/base.css')}>
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <a href="/home">
+        <img src="/logo.png" />
+        </a>
+      </div>
+      <MenuLayout></MenuLayout>
+      </div>
+    </div> <!-- header -->
+    <div class="main">
+    <slot />
+    </div>
+    <FootLayout></FootLayout>
+  </body>
+</html>
