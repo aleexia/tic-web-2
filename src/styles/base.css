@@ -2,7 +2,6 @@
   --font1: 'Courier New', monospace;
   --font2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   --font3: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  --color1: #4340dd;
 }
 *,
 body {
@@ -40,7 +39,7 @@ h1 {
   font-size: 40px;
   font-family: var(--font1);
 }
-p {
+h2 {
   margin: 5px 0px 25px 10px;
   font-size: 18px;
   font-family: var(--font3);
@@ -50,15 +49,22 @@ p {
   font-size: 30px;
   font-family: var(--font2);
 }
+p {
+  margin: 5px 0px 25px 10px;
+  font-size: 16px;
+  font-family: var(--font3);
+}
 .content {
   text-align: justify;
   margin: 0px 20px 0px 15px;
   font-size: 14px;
 }
 div.main ul li {
-  font-family: var(--font3);
-  font-style: italic;
+  font-family: var(--font2);
   margin-left: 5px;
+}
+div.main a {
+  color: #30bde7;
 }
 .foot a {
   color: rgb(0, 131, 175);
@@ -99,7 +105,7 @@ div.main ul li {
   display: block;
   font: 0.7em;
   padding-top: 0.5em;
-  font-family: ;
+  font-family: var(--font1);
 }
 
 .podcasts-detail {
