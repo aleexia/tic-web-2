@@ -2,7 +2,6 @@
   --font1: 'Courier New', monospace;
   --font2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   --font3: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-  --font4: Arial, Helvetica, sans-serif;
   --color1: #4340dd;
 }
 *,
@@ -55,6 +54,11 @@ p {
   text-align: justify;
   margin: 0px 20px 0px 15px;
   font-size: 14px;
+}
+div.main ul li {
+  font-family: var(--font3);
+  font-style: italic;
+  margin-left: 5px;
 }
 .foot a {
   color: rgb(0, 131, 175);
