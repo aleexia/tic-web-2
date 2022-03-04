@@ -2,6 +2,7 @@
   --font1: 'Courier New', monospace;
   --font2: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   --font3: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  --color5: #0387af;
 }
 *,
 body {
@@ -24,6 +25,9 @@ body {
 }
 #logo {
   margin-left: 10px;
+}
+img.logo:hover {
+  filter: drop-shadow(2px 2px 2px var(--color5));
 }
 #menu ul {
   display: flex;
