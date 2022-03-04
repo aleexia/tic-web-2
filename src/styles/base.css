@@ -14,7 +14,7 @@ body {
   background-color: #c9e9f3;
 }
 .logo {
-  width: 200px;
+  width: 180px;
 }
 #header {
   background-color: #3da0be;
@@ -68,7 +68,9 @@ p {
 }
 div.main ul li {
   font-family: var(--font2);
-  margin-left: 5px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  list-style: circle;
 }
 div.main a {
   color: #30bde7;
@@ -106,7 +108,7 @@ div.main a {
 .podcasts-preview .cover-picture {
   width: 100%;
   height: 200px;
-  background-color: rgb(207, 202, 202);
+  background-color: rgb(207, 202, 207);
 }
 .podcasts-preview .description {
   display: block;
@@ -124,11 +126,16 @@ div.main a {
 .podcasts-detail .cover-picture {
   width: 100%;
   height: 400px;
-  background-color: gray;
+  background-color: rgb(128, 128, 128);
 }
 .podcasts-detail .description {
   display: block;
   font: 1em;
   padding-top: 0.5em;
   font-size: 20px;
+}
+.contactblock {
+  display: grid;
+  grid-template-columns: 1fr 640px;
+  margin-right: 150px;
 }
