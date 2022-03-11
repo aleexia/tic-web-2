@@ -144,6 +144,7 @@ div.main a {
   grid-template-columns: 500px 1fr;
   gap: 1em;
   margin-left: 10px;
+  margin-right: 10px;
 }
 .podcasts-detail .cover-picture {
   width: 100%;
