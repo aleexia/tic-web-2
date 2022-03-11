@@ -114,17 +114,24 @@ div.main a {
   display: block;
   font: 0.7em;
   padding-top: 0.5em;
-  font-size: 1em;
+  font-size: 1.3em;
   font-family: var(--font1);
 }
 .podcasts-preview .description {
   display: block;
   font: 0.7em;
   padding-top: 0.5em;
-  font-size: 0.8em;
+  font-size: 1em;
   font-family: var(--font1);
 }
 .podcasts-preview .authors {
+  display: block;
+  font: 0.7px;
+  padding-top: 0.5em;
+  font-size: 0.8em;
+  font-family: var(--font1);
+}
+.podcasts-preview .date {
   display: block;
   font: 0.7px;
   padding-top: 0.5em;
@@ -149,6 +156,7 @@ div.main a {
   padding-top: 0.5em;
   font-size: 20px;
 }
+
 .contactblock {
   display: grid;
   grid-template-columns: 1fr 640px;
