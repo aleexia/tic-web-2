@@ -117,13 +117,6 @@ div.main a {
   font-size: 1.3em;
   font-family: var(--font1);
 }
-.podcasts-preview .description {
-  display: block;
-  font: 0.7em;
-  padding-top: 0.5em;
-  font-size: 1em;
-  font-family: var(--font1);
-}
 .podcasts-preview .authors {
   display: block;
   font: 0.7px;
@@ -147,8 +140,8 @@ div.main a {
   margin-right: 10px;
 }
 .podcasts-detail .cover-picture {
-  width: 100%;
-  height: 400px;
+  width: 300px;
+  height: 200px;
   background-color: rgb(128, 128, 128);
 }
 .podcasts-detail .description {
