@@ -98,7 +98,7 @@ div.main a {
   margin-left: 10px;
   margin-right: 10px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
 }
 .podcasts-preview {
@@ -155,4 +155,21 @@ div.main a {
   display: grid;
   grid-template-columns: 1fr 640px;
   margin-right: 150px;
+}
+
+
+.blogposts {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1em;
+}
+.blogpost {
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em;
+  background: linear-gradient(45deg, var(--color1), var(--color1));
 }

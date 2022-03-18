@@ -1,19 +1,26 @@
 ---
-// Component imports and setup JavaScript go here!
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+import LastPodcasts from '../components/LastPodcasts.astro'
+import LastBlogPosts from '../components/LastBlogPosts.astro'
 ---
-
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Welcome to Astro</title>
-		<style>
-			/* scoped CSS styles go here: */
-			/* h1 { ... } */
-		</style>
-	</head>
-
-	<body>
-		<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
-	</body>
-</html>
+<BaseLayout title="Homepage">
+<h2>Últimas podcasts incorporados </h2>
+  <div class="list-of-podcasts">
+      <div class="podcasts-preview">
+      <a href="/podcast">
+        <div class="cover-picture"></div>
+      </a>
+      </div>
+      <div class="podcasts-preview">
+      <a href="/podcast">
+        <div class="cover-picture"></div>
+      </a>
+      </div>
+      <div class="podcasts-preview">
+      <a href="/podcast">
+        <div class="cover-picture"></div>
+      </a>
+      </div>
+      <LastBlogPosts></LastBlogPosts>
+</BaseLayout>
