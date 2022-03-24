@@ -157,11 +157,10 @@ div.main a {
   margin-right: 150px;
 }
 
-
 .blogposts {
   margin-top: 2em;
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 .blogpost {
