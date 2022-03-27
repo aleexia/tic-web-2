@@ -11,8 +11,9 @@ const {title} = Astro.props;
     <meta name="author" content="Alexia" />
     <meta name="keywords" content="HTML, CSS, Astro" />
     <title>Ideopodcasts - {title}</title>
-    <link rel="stylesheet" type="text/css" href={Astro.resolve
-    ('../styles/base.css')}>
+    <style global>
+      @import "../styles/base.css";
+    </style>
   </head>
   <body>
     <div id="header">
