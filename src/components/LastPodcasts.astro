@@ -1,0 +1,30 @@
+---
+import Airtable from 'airtable';
+
+let apiKey = import.meta.env.AIRTABLE_API_KEY;  
+let airtable = new Airtable({apiKey}).base('appicIe7uSihHhtaB');
+
+let elements = await airtable('Ideopodcasts').select({
+view: 'Grid view',
+maxRecords: 3,
+sort: [{field: "Created", direction: "desc"}]
+}).firstPage();
+
+const items = elements.map((record) => ({
+    params: { id: record.id },
+    props: {
+        ...record.fields
+    }
+    }));
+
+---
+    
+    {items && items.filter((item) => {
+        return item.props.Attachments && item.props.Attachments.length > 0
+    }).map((item) => (
+        <div class="last-podcasts">
+            <a href={`/podcast/${item.params.id}`}>
+                <img src={item.props.Attachments[0].url}/>
+            </a>
+        </div>
+    ))}
