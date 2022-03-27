@@ -3,7 +3,7 @@ layout: ../../layouts/BlogPostLayout.astro
 title: ¿Por qué son importantes en la educación?
 draft: false
 date: 25/03/2022
-short: Los beneficios de la innovación de los podcasts en la educación. 
+short: Los beneficios de los podcasts en la educación. 
 ---
 
 _1- Impulsar participaciones más diversas en el aula._
