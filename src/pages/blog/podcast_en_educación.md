@@ -21,3 +21,5 @@ Los podcasts están disponibles todo el tiempo, desde cualquier lugar con conexi
 _4- Estimulan el pensamiento crítico._
 
 Los podcast de contenido académico normalmente utilizan diversas fuentes y muchos las citan, dando a los estudiantes oportunidad de investigar y conocer más sobre el tema.
+
+<img src="https://vilmanunez.com/wp-content/uploads/2020/02/Imagen-destacada-post-VN.png" wide=100px height=100px class="center">
